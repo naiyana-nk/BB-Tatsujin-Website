@@ -1,11 +1,8 @@
-import { Bold } from "lucide-react";
-
-// Home Page
-export default function Home() {
+export default function Product() {
   return (
-    <div style={{ padding: "2rem", color: "black" }}>
-      <h1>Home Page</h1>
-      <p style={{ fontWeight: "bold"}}>Placement for Home Page</p>
+    <div style={{ padding: "2rem", color: "black"}}>
+      <h1>Product Page</h1>
+      <p style={{ fontWeight: "bold"}}>Placement for Product Page</p>
       <p style={{ paddingBottom: 1000, paddingTop: 50 }}>
         What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the printing
         and typesetting industry. Lorem Ipsum has been the industry's standard

@@ -16,6 +16,9 @@
   :root {
     --background: #ffff;
     --foreground: #ededed;
+    --primary-color-gradient: linear-gradient(to left, #d11d23, #b91a1f);
+    --primary-color: #d11d23;
+    --primary-hover-color: #b91a1f;
   }
 }
 
@@ -25,6 +28,4 @@ body {
   font-family: "Prompt", "Noto Sans JP", "Open Sans", sans-serif;
 }
 
-h1 {
-  color: #171717;
-}
+
