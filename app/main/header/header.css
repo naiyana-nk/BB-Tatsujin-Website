@@ -206,14 +206,15 @@
 
 /* ! Responsive design */
 /* Tablet Responsive */
-@media (max-width: 1520px) {
-  .container {
-    padding: 0 1.5rem;
-  }
+@media (max-width: 1560) {
+    .container {
+        padding: 0 1.5rem;
+    }
 }
 
+
 /* Mobile Responsive */
-@media (max-width: 1030px) {
+@media (max-width: 1070px) {
   .hamburger {
     display: flex;
   }
@@ -260,6 +261,7 @@
 
   .container {
     gap: 1rem;
+    padding: 0.7rem 1.5rem;
   }
 
   .logo {
@@ -280,7 +282,7 @@
 /* Small Mobile */
 @media (max-width: 480px) {
   .container {
-    padding: 0 1rem;
+    padding: 0.7rem 1rem;
   }
 
   .logo img {

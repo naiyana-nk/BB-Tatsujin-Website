@@ -21,23 +21,19 @@ export default function Header() {
         <Link href="/" className="logo" onClick={closeMenu}>
           <img src="./assets/LOGO_4.png" alt="BeBlock" />
         </Link>
-
-        {/*  */}
+        {/* Nav List */}
         <nav className={`nav ${isMenuOpen ? "nav-open" : ""}`}>
-          <Link href="/" className="nav-link" onClick={closeMenu}>
-            Home
-          </Link>
           <Link href="/product" className="nav-link" onClick={closeMenu}>
             Product
           </Link>
-          <Link href="/" className="nav-link" onClick={closeMenu}>
+          <Link href="/create-guide" className="nav-link" onClick={closeMenu}>
             Creation Guide
           </Link>
-          <Link href="/" className="nav-link" onClick={closeMenu}>
+          <Link href="/template-guide" className="nav-link" onClick={closeMenu}>
             Template
           </Link>
           <Link href="/contact" className="nav-link" onClick={closeMenu}>
-            Contact
+            Contact Us
           </Link>
           <Link
             className="shopping-cart shopping-cart-mobile"
